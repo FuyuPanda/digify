@@ -1,3 +1,10 @@
 Digify/bin/
 Digify/obj/
 .vs/
+Digify.API/bin/
+Digify.API/obj/
+Digify.Common/obj/
+Digify.Data/bin/
+Digify.Data/obj/
+Digify.Common/bin/
+Digify/wwwroot/Uploads/

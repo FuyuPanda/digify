@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digify", "Digify\Digify.csproj", "{5EDAB4E8-2113-42F8-8A80-1A1996F19A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digify", "Digify\Digify.csproj", "{5EDAB4E8-2113-42F8-8A80-1A1996F19A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digify.API", "Digify.API\Digify.API.csproj", "{735C6148-594D-49A1-BAE3-20310FADE8BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digify.Data", "Digify.Data\Digify.Data.csproj", "{83109CD4-E074-46DE-9F5B-3FCD2A4AA5B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digify.Common", "Digify.Common\Digify.Common.csproj", "{AF32EE7F-2F82-41AC-9877-DF94EF886C62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{5EDAB4E8-2113-42F8-8A80-1A1996F19A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EDAB4E8-2113-42F8-8A80-1A1996F19A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EDAB4E8-2113-42F8-8A80-1A1996F19A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{735C6148-594D-49A1-BAE3-20310FADE8BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735C6148-594D-49A1-BAE3-20310FADE8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735C6148-594D-49A1-BAE3-20310FADE8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735C6148-594D-49A1-BAE3-20310FADE8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83109CD4-E074-46DE-9F5B-3FCD2A4AA5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83109CD4-E074-46DE-9F5B-3FCD2A4AA5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83109CD4-E074-46DE-9F5B-3FCD2A4AA5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83109CD4-E074-46DE-9F5B-3FCD2A4AA5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF32EE7F-2F82-41AC-9877-DF94EF886C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF32EE7F-2F82-41AC-9877-DF94EF886C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF32EE7F-2F82-41AC-9877-DF94EF886C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF32EE7F-2F82-41AC-9877-DF94EF886C62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
